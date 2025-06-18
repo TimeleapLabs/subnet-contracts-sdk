@@ -1,1 +1,3 @@
-# subnet-contracts-sdk
+# Subnet SDK
+
+A light wrapper to Timeleap Subnet smart contracts.
