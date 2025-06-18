@@ -17,5 +17,15 @@
     "build": "tsc --project tsconfig.json",
     "test": "echo \"No tests specified\" && exit 0",
     "prepublishOnly": "yarn build"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./*": {
+      "import": "./dist/*.js",
+      "types": "./dist/*.d.ts"
+    }
   }
 }
