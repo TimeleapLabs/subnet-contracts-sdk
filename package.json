@@ -23,6 +23,10 @@
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
+    "./typechain": {
+      "import": "./dist/typechain/index.js",
+      "types": "./dist/typechain/index.d.ts"
+    },
     "./*": {
       "import": "./dist/*.js",
       "types": "./dist/*.d.ts"
